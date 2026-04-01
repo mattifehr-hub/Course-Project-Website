@@ -3,11 +3,7 @@ body {
   margin: 0;
   overflow: hidden;
   background-size: cover;
-  background-position: 0px 1000px;
-}
-
-.location-page {
-  background-image: url("../images/neigborhoodDoor.png");
+  background-position: 0px 900px;
 }
 
 .button {
@@ -18,6 +14,14 @@ body {
   padding: 10px;
   text-decoration: none;
   color: black;
+}
+
+.billy{
+  width: 250px;
+}
+
+.location-page {
+  background-image: url("../images/neigborhoodDoor.png");
 }
 
 .island {
@@ -54,6 +58,12 @@ body {
 
 .circus-page {
   background-image: url("../images/circus.png");
+}
+
+.circus-page, .billy{
+  position: absolute;
+  top: 150px;
+  left: 300px;
 }
 
 .forest-page {
