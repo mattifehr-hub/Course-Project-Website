@@ -1,5 +1,6 @@
 // Book Flip
 const nextBtn = document.querySelector("#next-btn");
+const zoomBtn = document.querySelector("#zoom-btn");
 const book = document.querySelector("#book");
 
 const paper1 = document.querySelector("#p1");
@@ -7,6 +8,7 @@ const paper2 = document.querySelector("#p2");
 
 // Event Listener
 nextBtn.addEventListener("click", goNextPage);
+nextBtn.addEventListener("click", removeBtn)
 
 // Business Logic
 let currentLocation = 1;
@@ -26,6 +28,7 @@ function goNextPage(){
                 openBook();
                 paper1.classList.add("flipped");
                 paper1.style.zindex = 1;
+                zoomBtn.style.display = 'block';
                 break;
             default:
                 throw new Error("unknown state");
@@ -35,3 +38,9 @@ function goNextPage(){
 
 }
 
+// Remove next page button after flipping page
+function removeBtn(){
+    nextBtn.disabled = true;
+    nextBtn.remove();
+    zoomBtn.style.display = 'inline';
+}
