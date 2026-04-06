@@ -6,14 +6,53 @@
     <!-- resets browser defaults -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <!-- Custom Styles -->
-    <link rel="stylesheet" type="text/css" href="css/BestBalloon.css" />
+    <link rel="stylesheet" type="text/css" href="css/book.css" />
+
+    <script
+      src="https://kit.fontawesome.com/1db2f29f89.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Home</title>
   </head>
 
   <body>
-    <a href="openingPage.html" class="button">Next Page</a>
+    <!-- <a href="openingPage.html" class="button">Next Page</a> -->
+
+
+    <!-- Book -->
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>Front 1</h1>
+                     <!-- <img src="images/neigborhoodDoor.png" alt=""> -->
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Back 1</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Front 2</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Next Button -->
+    <button id="next-btn">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
+
 
     <!-- Linking my JS -->
-    <script src="BestBalloon.js"></script>
+    <script src="BestBalloon.js" defer></script>
   </body>
 </html>

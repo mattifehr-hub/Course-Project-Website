@@ -25,7 +25,7 @@ body {
 }
 
 .island {
-  width: 200px;
+  width: 350px;
 }
 
 .section {
@@ -37,20 +37,20 @@ body {
 }
 
 .left {
-  top: 500px;
-  left: 200px;
+  top: 350px;
+  left: 150px;
   align-items: center;
 }
 
 .center {
-  top: 550px;
-  left: 650px;
+  top: 350px;
+  left: 575px;
   align-items: center;
 }
 
 .right {
-  top: 425px;
-  right: 200px;
+  top: 190px;
+  right: 150px;
   align-items: center;
 }
 
@@ -70,4 +70,18 @@ body {
 
 .beach-page {
   background-image: url("../images/beach.png");
+}
+
+p{
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  font-size: 18pt;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  width: 500px;
+  text-overflow: wrap;
+
 }
