@@ -14,6 +14,11 @@ body{
     background-color: #64ACBA;
 }
 
+h1{
+  font-family: "Barriecito", system-ui;
+  z-index: 4;
+}
+
 .book{
     position: relative;
     margin: 0 0 0 300px;
@@ -122,6 +127,7 @@ button{
 
 p{
   position: absolute;
+  font-family: "Playpen Sans", cursive;
   left: 50px;
   top: 50px;
   font-size: 10pt;

@@ -4,6 +4,26 @@ body {
   overflow: hidden;
   background-size: cover;
   background-position: 0px 1000px;
+
+}
+
+h1{
+  font-family: "Barriecito", system-ui;
+  z-index: 4;
+}
+
+p{
+  position: absolute;
+  font-family: "Playpen Sans", cursive;
+  left: 150px;
+  top: 100px;
+  font-size: 18pt;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  width: 500px;
+  text-overflow: wrap;
 }
 
 .button {
@@ -18,10 +38,21 @@ body {
 
 .billy{
   width: 250px;
+  z-index: 1;
 }
 
+.balloon{
+  width: 125px;
+  z-index: 2;
+}
+
+/* Choose Pages */
 .location-page {
   background-image: url("../images/neigborhoodDoor.png");
+}
+
+.circus-trick-page {
+  background-image: url("../images/circusEmpty.png");
 }
 
 .island {
@@ -54,34 +85,31 @@ body {
   align-items: center;
 }
 
+/* Circus */
+
 .circus-page {
   background-image: url("../images/circus.png");
+  position: relative;
 }
 
 .circus-page, .billy{
   position: absolute;
-  top: 150px;
-  left: 300px;
+  top: 250px;
+  left: 100px;
 }
 
+.circus-page, .balloon{
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+/* Forest */
 .forest-page {
   background-image: url("../images/forest.png");
 }
 
+/* Beach */
 .beach-page {
   background-image: url("../images/beach.png");
-}
-
-p{
-  position: absolute;
-  left: 150px;
-  top: 100px;
-  font-size: 18pt;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  padding: 5px;
-  width: 500px;
-  text-overflow: wrap;
-
 }
