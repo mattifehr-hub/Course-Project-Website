@@ -88,28 +88,57 @@ p{
 /* Circus */
 
 .circus-page {
-  background-image: url("../images/circus.png");
+  background-image: url("../images/circusBilly.png");
   position: relative;
 }
 
-.circus-page, .billy{
-  position: absolute;
-  top: 250px;
-  left: 100px;
+.circus-page p{
+  left: 50px;
+  top: 50px;
+  width: 325px;
+  text-overflow: wrap;
 }
 
-.circus-page, .balloon{
+.circus-page .button{
   position: absolute;
-  top: 100px;
-  left: 400px;
+  bottom: 50px;
+  right: 50px;
 }
 
 /* Forest */
 .forest-page {
-  background-image: url("../images/forest.png");
+  background-image: url("../images/forestBilly.png");
+  position: relative;
+}
+
+.forest-page p{
+  left: 50px;
+  top: 50px;
+  width: 325px;
+  text-overflow: wrap;
+}
+
+.forest-page .button{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 /* Beach */
 .beach-page {
-  background-image: url("../images/beach.png");
+  background-image: url("../images/beachBilly.png");
+  position: relative;
+}
+
+.beach-page p{
+  left: 50px;
+  top: 50px;
+  width: 325px;
+  text-overflow: wrap;
+}
+
+.beach-page .button{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
