@@ -3,7 +3,8 @@ body {
   margin: 0;
   overflow: hidden;
   background-size: cover;
-  background-position: 0px 1000px;
+  /* background-position: 0px 0px; */
+  /* min-height: 100%; */
 
 }
 
@@ -48,11 +49,19 @@ p{
 
 /* Choose Pages */
 .location-page {
-  background-image: url("../images/neigborhoodDoor.png");
+  background-image: url("../images/neighborhoodDoor.svg");
+   background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: right top;
+    background-size: cover;
 }
 
 .circus-trick-page {
   background-image: url("../images/circusEmpty.png");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left bottom;
+    background-size: cover;
 }
 
 .island {
@@ -87,8 +96,12 @@ p{
 
 /* Circus */
 .circus-page {
-  background-image: url("../images/circusBilly.png");
+  background-image: url("../images/circusBilly.svg");
   position: relative;
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left bottom;
+    background-size: cover;
 }
 
 .circus-page p{
@@ -106,8 +119,12 @@ p{
 
 /* Forest */
 .forest-page {
-  background-image: url("../images/forestBilly.png");
+  background-image: url("../images/forestBilly.svg");
   position: relative;
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left bottom;
+    background-size: cover;
 }
 
 .forest-page p{
@@ -125,7 +142,7 @@ p{
 
 /* Beach */
 .beach-page {
-  background-image: url("../images/beachBilly.png");
+  background-image: url("../images/beachBilly.svg");
   position: relative;
 }
 
