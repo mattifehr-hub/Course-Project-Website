@@ -3,9 +3,6 @@ body {
   margin: 0;
   overflow: hidden;
   background-size: cover;
-  /* background-position: 0px 0px; */
-  /* min-height: 100%; */
-
 }
 
 h1{
@@ -78,6 +75,7 @@ p{
   width: 350px;
 }
 
+/* Place options on screen centered and equally spaced */
 .project-grid {
   display: flex;
   flex-direction: row;
@@ -100,8 +98,8 @@ p{
 }
 
 
-
 /* Circus */
+/* sets background image and moves it to fit */
 .circus-page {
   background-image: url("../images/circusBilly.svg");
   position: relative;
@@ -111,6 +109,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .circus-page p{
   left: 50px;
   top: 50px;
@@ -118,12 +117,14 @@ p{
   text-overflow: wrap;
 }
 
+/* positions button */
 .circus-page .button{
   position: absolute;
   top: 50px;
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .circus-trick-page {
   background-image: url("../images/circusEmpty.svg");
   background-attachment: fixed;
@@ -132,12 +133,14 @@ p{
     background-size: cover;
 }
 
+
 .circus-trick-page p{
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
+/* sets background image and moves it to fit */
 .circus-balance-page {
   background-image: url("../images/circusBalance.svg");
   background-attachment: fixed;
@@ -146,6 +149,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .circus-balance-page p{
   left: 50px;
   top: 50px;
@@ -159,6 +163,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .circus-hula-page {
   background-image: url("../images/circusHula.svg");
   background-attachment: fixed;
@@ -167,6 +172,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .circus-hula-page p{
   left: 50px;
   top: 50px;
@@ -179,6 +185,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .circus-ball-page {
   background-image: url("../images/circusBall.svg");
   background-attachment: fixed;
@@ -187,6 +194,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .circus-ball-page p{
   left: 50px;
   top: 50px;
@@ -199,6 +207,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .circus-broke-page {
   background-image: url("../images/circusBroke.svg");
   background-attachment: fixed;
@@ -207,6 +216,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .circus-broke-page p{
   left: 50px;
   top: 50px;
@@ -219,6 +229,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .circus-save-page{
   background-image: url("../images/circusEmpty.svg");
   background-attachment: fixed;
@@ -227,6 +238,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .circus-save-page p{
   left: 50px;
   top: 50px;
@@ -234,6 +246,7 @@ p{
 }
 
 /* Forest */
+/* sets background image and moves it to fit */
 .forest-page {
   background-image: url("../images/forestBilly.svg");
   position: relative;
@@ -244,6 +257,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-page p{
   left: 50px;
   top: 50px;
@@ -257,6 +271,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .forest-trick-page {
   background-image: url("../images/forestEmpty.svg");
   background-attachment: fixed;
@@ -265,12 +280,14 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-trick-page p{
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
+/* sets background image and moves it to fit */
 .forest-balance-page {
   background-image: url("../images/forestBalance.svg");
   background-attachment: fixed;
@@ -279,6 +296,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-balance-page p{
   left: 50px;
   top: 50px;
@@ -291,6 +309,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .forest-hula-page {
   background-image: url("../images/forestHula.svg");
   background-attachment: fixed;
@@ -299,6 +318,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-hula-page p{
   left: 50px;
   top: 50px;
@@ -311,6 +331,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .forest-ball-page {
   background-image: url("../images/forestBall.svg");
   background-attachment: fixed;
@@ -319,6 +340,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-ball-page p{
   left: 50px;
   top: 50px;
@@ -331,6 +353,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .forest-broke-page {
   background-image: url("../images/forestBroke.svg");
   background-attachment: fixed;
@@ -339,6 +362,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-broke-page p{
   left: 50px;
   top: 50px;
@@ -351,6 +375,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .forest-save-page{
   background-image: url("../images/forestEmpty.svg");
   background-attachment: fixed;
@@ -359,6 +384,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .forest-save-page p{
   left: 50px;
   top: 50px;
@@ -366,6 +392,7 @@ p{
 }
 
 /* Beach */
+/* sets background image and moves it to fit */
 .beach-page {
   background-image: url("../images/beachBilly.svg");
   position: relative;
@@ -376,6 +403,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-page p{
   left: 50px;
   top: 50px;
@@ -389,6 +417,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .beach-trick-page {
   background-image: url("../images/beachEmpty.svg");
   background-attachment: fixed;
@@ -397,12 +426,14 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-trick-page p{
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
+/* sets background image and moves it to fit */
 .beach-balance-page {
   background-image: url("../images/beachBalance.svg");
   background-attachment: fixed;
@@ -411,6 +442,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-balance-page p{
   left: 50px;
   top: 50px;
@@ -423,6 +455,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .beach-hula-page {
   background-image: url("../images/beachHula.svg");
   background-attachment: fixed;
@@ -431,6 +464,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-hula-page p{
   left: 50px;
   top: 50px;
@@ -443,6 +477,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .beach-ball-page {
   background-image: url("../images/beachBall.svg");
   background-attachment: fixed;
@@ -451,6 +486,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-ball-page p{
   left: 50px;
   top: 50px;
@@ -463,6 +499,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .beach-broke-page {
   background-image: url("../images/beachBroke.svg");
   background-attachment: fixed;
@@ -471,6 +508,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-broke-page p{
   left: 50px;
   top: 50px;
@@ -489,6 +527,7 @@ p{
   right: 50px;
 }
 
+/* sets background image and moves it to fit */
 .beach-save-page{
   background-image: url("../images/beachEmpty.svg");
   background-attachment: fixed;
@@ -497,6 +536,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .beach-save-page p{
   left: 50px;
   top: 50px;
@@ -504,6 +544,7 @@ p{
 }
 
 /* confetti */
+/* sets background image and moves it to fit */
 .confetti-page{
   background-image: url("../images/celebration.svg");
   background-attachment: fixed;
@@ -512,6 +553,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .confetti-page p{
   left: 50px;
   top: 50px;
@@ -525,6 +567,7 @@ p{
 }
 
 /* tape */
+/* sets background image and moves it to fit */
 .tape-page{
   background-image: url("../images/saved.svg");
   background-attachment: fixed;
@@ -533,6 +576,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .tape-page p{
   left: 50px;
   top: 50px;
@@ -546,6 +590,7 @@ p{
 }
 
 /* pump */
+/* sets background image and moves it to fit */
 .pump-page{
   background-image: url("../images/floating.svg");
   background-attachment: fixed;
@@ -554,6 +599,7 @@ p{
     background-size: cover;
 }
 
+/* positions text */
 .pump-page p{
   left: 50px;
   top: 50px;
