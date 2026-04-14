@@ -56,24 +56,29 @@ p{
     background-size: cover;
 }
 
-.circus-trick-page {
-  background-image: url("../images/circusEmpty.png");
-  background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left bottom;
-    background-size: cover;
-}
-
 .island {
   width: 350px;
 }
 
+.project-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .section {
-  position: fixed;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 15px;
-  padding: 10px;
+  padding: 20px;
+  margin-top: 100px;
 }
 
 .left {
@@ -94,13 +99,15 @@ p{
   align-items: center;
 }
 
+
+
 /* Circus */
 .circus-page {
   background-image: url("../images/circusBilly.svg");
   position: relative;
   background-attachment: fixed;
     background-repeat: no repeat;
-    background-position: left bottom;
+    background-position: left -125px;
     background-size: cover;
 }
 
@@ -113,8 +120,116 @@ p{
 
 .circus-page .button{
   position: absolute;
-  bottom: 50px;
+  top: 50px;
   right: 50px;
+}
+
+.circus-trick-page {
+  background-image: url("../images/circusEmpty.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.circus-trick-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.circus-balance-page {
+  background-image: url("../images/circusBalance.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.circus-balance-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.circus-balance-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.circus-hula-page {
+  background-image: url("../images/circusHula.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.circus-hula-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.circus-hula-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.circus-ball-page {
+  background-image: url("../images/circusBall.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.circus-ball-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.circus-ball-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.circus-broke-page {
+  background-image: url("../images/circusBroke.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.circus-broke-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.circus-broke-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.circus-save-page{
+  background-image: url("../images/circusEmpty.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.circus-save-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
 }
 
 /* Forest */
@@ -123,7 +238,8 @@ p{
   position: relative;
   background-attachment: fixed;
     background-repeat: no repeat;
-    background-position: left bottom;
+    background-position: left -100px;
+
     background-size: cover;
 }
 
@@ -136,14 +252,127 @@ p{
 
 .forest-page .button{
   position: absolute;
-  bottom: 50px;
+  top: 50px;
   right: 50px;
+}
+
+.forest-trick-page {
+  background-image: url("../images/forestEmpty.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.forest-trick-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.forest-balance-page {
+  background-image: url("../images/forestBalance.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.forest-balance-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.forest-balance-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.forest-hula-page {
+  background-image: url("../images/forestHula.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.forest-hula-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.forest-hula-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.forest-ball-page {
+  background-image: url("../images/forestBall.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.forest-ball-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.forest-ball-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.forest-broke-page {
+  background-image: url("../images/forestBroke.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.forest-broke-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.forest-broke-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.forest-save-page{
+  background-image: url("../images/forestEmpty.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.forest-save-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
 }
 
 /* Beach */
 .beach-page {
   background-image: url("../images/beachBilly.svg");
   position: relative;
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -100px;
+
+    background-size: cover;
 }
 
 .beach-page p{
@@ -155,6 +384,183 @@ p{
 
 .beach-page .button{
   position: absolute;
-  bottom: 50px;
+  top: 50px;
+  right: 50px;
+}
+
+.beach-trick-page {
+  background-image: url("../images/beachEmpty.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.beach-trick-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.beach-balance-page {
+  background-image: url("../images/beachBalance.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.beach-balance-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.beach-balance-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.beach-hula-page {
+  background-image: url("../images/beachHula.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.beach-hula-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.beach-hula-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.beach-ball-page {
+  background-image: url("../images/beachBall.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.beach-ball-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.beach-ball-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.beach-broke-page {
+  background-image: url("../images/beachBroke.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.beach-broke-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.beach-broke-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.beach-broke-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.beach-save-page{
+  background-image: url("../images/beachEmpty.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.beach-save-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+/* confetti */
+.confetti-page{
+  background-image: url("../images/celebration.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.confetti-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.confetti-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+/* tape */
+.tape-page{
+  background-image: url("../images/saved.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.tape-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.tape-page .button{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+/* pump */
+.pump-page{
+  background-image: url("../images/floating.svg");
+  background-attachment: fixed;
+    background-repeat: no repeat;
+    background-position: left -125px;
+    background-size: cover;
+}
+
+.pump-page p{
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.pump-page .button{
+  position: absolute;
+  top: 50px;
   right: 50px;
 }
