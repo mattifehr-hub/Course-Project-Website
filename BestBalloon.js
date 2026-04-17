@@ -15,10 +15,9 @@ let currentLocation = 1;
 let numOfPapers = 3;
 let maxLocation = numOfPapers;
 
-function openBook(){
-    book.style.transform = "translateX(50%)";
-    nextBtn.style.transform = "translateX(180px)";
-
+function openBook() {
+  book.style.transform = "translateX(50%)";
+  nextBtn.style.transform = "translateX(180px)";
 }
 
 function goNextPage() {
@@ -50,48 +49,23 @@ function goNextPage() {
   currentLocation++;
 }
 
-// function goNextPage() {
-//   if (currentLocation > maxLocation) return;
-
-//   switch (currentLocation) {
-//     case 1:
-//       openBook();
-//       paper1.classList.add("flipped");
-
-//       setTimeout(() => {
-//         paper1.style.zIndex = 1;
-//       }, 250);
-//       break;
-
-//     case 2:
-//       paper2.classList.add("flipped");
-
-//       setTimeout(() => {
-//         paper2.style.zIndex = 2;
-//       }, 250);
-//       break;
-
-//     case 3:
-//       paper3.classList.add("flipped");
-
-//       setTimeout(() => {
-//         paper3.style.zIndex = 3;
-//         removeBtn();
-//       }, 500);
-//       console.log("case 3 reached");
-//     removeBtn();
-//       break;
-
-    
-//   }
-
-//   currentLocation++;
-// }
-
 // Remove next page button after flipping page
-function removeBtn(){
-    // nextBtn.disabled = true;
-    // nextBtn.remove();
-    nextBtn.style.display = "none";
-    zoomBtn.style.display = 'inline-block';
+function removeBtn() {
+  // nextBtn.disabled = true;
+  // nextBtn.remove();
+  nextBtn.style.display = "none";
+  zoomBtn.style.display = "inline-block";
 }
+
+$("#zoom").on("click", function() {
+    $("#zoomTarget").zoomTo();
+});
+
+$("#zoom").on("click", function () {
+    $("#book").zoomTo({
+        duration: 800,
+        easing: "ease-in-out"
+    });
+});
+
+console.log($.fn.zoomTo);

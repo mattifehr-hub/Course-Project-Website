@@ -5,12 +5,12 @@ body {
   background-size: cover;
 }
 
-h1{
+h1 {
   font-family: "Barriecito", system-ui;
   z-index: 4;
 }
 
-p{
+p {
   position: absolute;
   font-family: "Playpen Sans", cursive;
   left: 150px;
@@ -35,7 +35,7 @@ p{
   color: antiquewhite;
 }
 
-.button:hover{
+.button:hover {
   font-size: 30px;
   z-index: 100;
   border-radius: 30px;
@@ -45,12 +45,12 @@ p{
   border: 3px solid #e21d36;
 }
 
-.billy{
+.billy {
   width: 250px;
   z-index: 1;
 }
 
-.balloon{
+.balloon {
   width: 125px;
   z-index: 2;
 }
@@ -58,13 +58,13 @@ p{
 /* Choose Pages */
 .location-page {
   background-image: url("../images/neighborhoodDoor.svg");
-   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: right top;
-    background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no repeat;
+  background-position: right top;
+  background-size: cover;
 }
 
-.location-page p{
+.location-page p {
   left: 50px;
   top: 50px;
   width: 400px;
@@ -97,20 +97,19 @@ p{
   margin-top: 100px;
 }
 
-
 /* Circus */
 /* sets background image and moves it to fit */
 .circus-page {
   background-image: url("../images/circusBilly.svg");
   position: relative;
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.circus-page p{
+.circus-page p {
   left: 50px;
   top: 50px;
   width: 325px;
@@ -118,7 +117,7 @@ p{
 }
 
 /* positions button */
-.circus-page .button{
+.circus-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -128,13 +127,12 @@ p{
 .circus-trick-page {
   background-image: url("../images/circusEmpty.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left bottom;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left bottom;
+  background-size: cover;
 }
 
-
-.circus-trick-page p{
+.circus-trick-page p {
   left: 50px;
   top: 50px;
   width: 300px;
@@ -144,19 +142,19 @@ p{
 .circus-balance-page {
   background-image: url("../images/circusBalance.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.circus-balance-page p{
+.circus-balance-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.circus-balance-page .button{
+.circus-balance-page .button {
   font-family: "Barriecito", system-ui;
   position: absolute;
   top: 50px;
@@ -167,19 +165,19 @@ p{
 .circus-hula-page {
   background-image: url("../images/circusHula.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.circus-hula-page p{
+.circus-hula-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.circus-hula-page .button{
+.circus-hula-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -189,19 +187,19 @@ p{
 .circus-ball-page {
   background-image: url("../images/circusBall.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.circus-ball-page p{
+.circus-ball-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.circus-ball-page .button{
+.circus-ball-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -211,35 +209,35 @@ p{
 .circus-broke-page {
   background-image: url("../images/circusBroke.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.circus-broke-page p{
+.circus-broke-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.circus-broke-page .button{
+.circus-broke-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
 }
 
 /* sets background image and moves it to fit */
-.circus-save-page{
+.circus-save-page {
   background-image: url("../images/circusEmpty.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.circus-save-page p{
+.circus-save-page p {
   left: 50px;
   top: 50px;
   width: 300px;
@@ -251,21 +249,21 @@ p{
   background-image: url("../images/forestBilly.svg");
   position: relative;
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -100px;
+  background-repeat: no repeat;
+  background-position: left -100px;
 
-    background-size: cover;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-page p{
+.forest-page p {
   left: 50px;
   top: 50px;
   width: 325px;
   text-overflow: wrap;
 }
 
-.forest-page .button{
+.forest-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -275,13 +273,13 @@ p{
 .forest-trick-page {
   background-image: url("../images/forestEmpty.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left bottom;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left bottom;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-trick-page p{
+.forest-trick-page p {
   left: 50px;
   top: 50px;
   width: 300px;
@@ -291,19 +289,19 @@ p{
 .forest-balance-page {
   background-image: url("../images/forestBalance.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-balance-page p{
+.forest-balance-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.forest-balance-page .button{
+.forest-balance-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -313,19 +311,19 @@ p{
 .forest-hula-page {
   background-image: url("../images/forestHula.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-hula-page p{
+.forest-hula-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.forest-hula-page .button{
+.forest-hula-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -335,19 +333,19 @@ p{
 .forest-ball-page {
   background-image: url("../images/forestBall.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-ball-page p{
+.forest-ball-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.forest-ball-page .button{
+.forest-ball-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -357,35 +355,35 @@ p{
 .forest-broke-page {
   background-image: url("../images/forestBroke.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-broke-page p{
+.forest-broke-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.forest-broke-page .button{
+.forest-broke-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
 }
 
 /* sets background image and moves it to fit */
-.forest-save-page{
+.forest-save-page {
   background-image: url("../images/forestEmpty.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.forest-save-page p{
+.forest-save-page p {
   left: 50px;
   top: 50px;
   width: 300px;
@@ -397,21 +395,21 @@ p{
   background-image: url("../images/beachBilly.svg");
   position: relative;
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -100px;
+  background-repeat: no repeat;
+  background-position: left -100px;
 
-    background-size: cover;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-page p{
+.beach-page p {
   left: 50px;
   top: 50px;
   width: 325px;
   text-overflow: wrap;
 }
 
-.beach-page .button{
+.beach-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -421,13 +419,13 @@ p{
 .beach-trick-page {
   background-image: url("../images/beachEmpty.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left bottom;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left bottom;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-trick-page p{
+.beach-trick-page p {
   left: 50px;
   top: 50px;
   width: 300px;
@@ -437,19 +435,19 @@ p{
 .beach-balance-page {
   background-image: url("../images/beachBalance.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-balance-page p{
+.beach-balance-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.beach-balance-page .button{
+.beach-balance-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -459,19 +457,19 @@ p{
 .beach-hula-page {
   background-image: url("../images/beachHula.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-hula-page p{
+.beach-hula-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.beach-hula-page .button{
+.beach-hula-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -481,19 +479,19 @@ p{
 .beach-ball-page {
   background-image: url("../images/beachBall.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-ball-page p{
+.beach-ball-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.beach-ball-page .button{
+.beach-ball-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -503,41 +501,41 @@ p{
 .beach-broke-page {
   background-image: url("../images/beachBroke.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-broke-page p{
+.beach-broke-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.beach-broke-page .button{
+.beach-broke-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
 }
 
-.beach-broke-page .button{
+.beach-broke-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
 }
 
 /* sets background image and moves it to fit */
-.beach-save-page{
+.beach-save-page {
   background-image: url("../images/beachEmpty.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.beach-save-page p{
+.beach-save-page p {
   left: 50px;
   top: 50px;
   width: 300px;
@@ -545,22 +543,22 @@ p{
 
 /* confetti */
 /* sets background image and moves it to fit */
-.confetti-page{
+.confetti-page {
   background-image: url("../images/celebration.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.confetti-page p{
+.confetti-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.confetti-page .button{
+.confetti-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -568,22 +566,22 @@ p{
 
 /* tape */
 /* sets background image and moves it to fit */
-.tape-page{
+.tape-page {
   background-image: url("../images/saved.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.tape-page p{
+.tape-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.tape-page .button{
+.tape-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
@@ -591,22 +589,22 @@ p{
 
 /* pump */
 /* sets background image and moves it to fit */
-.pump-page{
+.pump-page {
   background-image: url("../images/floating.svg");
   background-attachment: fixed;
-    background-repeat: no repeat;
-    background-position: left -125px;
-    background-size: cover;
+  background-repeat: no repeat;
+  background-position: left -125px;
+  background-size: cover;
 }
 
 /* positions text */
-.pump-page p{
+.pump-page p {
   left: 50px;
   top: 50px;
   width: 300px;
 }
 
-.pump-page .button{
+.pump-page .button {
   position: absolute;
   top: 50px;
   right: 50px;

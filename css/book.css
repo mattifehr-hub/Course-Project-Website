@@ -1,116 +1,115 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    background-color: #64ACBA;
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #64acba;
 }
 
-h1{
+h1 {
   font-family: "Barriecito", system-ui;
   z-index: 4;
 }
 
-.book{
-    position: relative;
-    width: 350px;
-    height: 500px;
+.book {
+  position: relative;
+  width: 350px;
+  height: 500px;
 
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
-.paper{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    perspective: 1500px;
+.paper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  perspective: 1500px;
 }
 
-.front, .back{
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transform-origin: left;
-    transition: transform 0.5s;
+.front,
+.back {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transition: transform 0.5s;
 }
 
-.front{
-    z-index: 1;
-    backface-visibility: hidden;
-    border-left: 3px solid #64ACBA;
-
+.front {
+  z-index: 1;
+  backface-visibility: hidden;
+  border-left: 3px solid #64acba;
 }
 
-.back{
-    z-index: 0;
+.back {
+  z-index: 0;
 }
 
-.front-content, .back-content{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.front-content,
+.back-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.back-content{
-    transform: rotateY(180deg);
+.back-content {
+  transform: rotateY(180deg);
 }
 
 /* paper flip effect */
-.flipped .front, .flipped .back{
-    transform: rotateY(-180deg);
+.flipped .front,
+.flipped .back {
+  transform: rotateY(-180deg);
 }
-
 
 /* contoller buttons */
-button{
-    border: none;
-    background-color: green;
-    cursor: pointer;
-    width: 30px;
-    height: 500px;
-    margin: -30px;
-    z-index: 3;
+button {
+  border: none;
+  background-color: green;
+  cursor: pointer;
+  width: 30px;
+  height: 500px;
+  margin: -30px;
+  z-index: 3;
 }
 
-#zoom-btn{
-    border: none;
-    background-color: purple;
-    cursor: pointer;
-    width: 30px;
-    height: 500px;
-    margin: 0px;
-    position: absolute;
-    right: 405px;
-    top:368px;
-    z-index: 4;
+#zoom-btn {
+  border: none;
+  background-color: purple;
+  cursor: pointer;
+  width: 30px;
+  height: 500px;
+  margin: 0px;
+  position: absolute;
+  right: 405px;
+  top: 368px;
+  z-index: 4;
 }
 
-
-#p1{
-    z-index: 3;
+#p1 {
+  z-index: 3;
 }
 
-#p2{
-    z-index: 2;
+#p2 {
+  z-index: 2;
 }
 
-#p3{
-    z-index: 1;
+#p3 {
+  z-index: 1;
 }
 
 .paper img {
@@ -133,7 +132,7 @@ button{
   color: antiquewhite;
 } */
 
-p{
+p {
   position: absolute;
   font-family: "Playpen Sans", cursive;
   left: 50px;
@@ -145,5 +144,4 @@ p{
   padding: 5px;
   width: 200px;
   text-overflow: wrap;
-
 }
