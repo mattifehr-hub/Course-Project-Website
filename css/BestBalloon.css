@@ -13,14 +13,11 @@ h1 {
 p {
   position: absolute;
   font-family: "Playpen Sans", cursive;
-  left: 150px;
-  top: 100px;
   font-size: 18pt;
   color: black;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 5px;
-  width: 500px;
   text-overflow: wrap;
 }
 
@@ -67,7 +64,7 @@ p {
 .location-page p {
   left: 50px;
   top: 50px;
-  width: 400px;
+  width: 500px;
   text-overflow: wrap;
 }
 
@@ -112,7 +109,7 @@ p {
 .circus-page p {
   left: 50px;
   top: 50px;
-  width: 325px;
+  width: 400px;
   text-overflow: wrap;
 }
 
@@ -135,7 +132,7 @@ p {
 .circus-trick-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 /* sets background image and moves it to fit */
@@ -151,7 +148,7 @@ p {
 .circus-balance-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .circus-balance-page .button {
@@ -174,7 +171,7 @@ p {
 .circus-hula-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .circus-hula-page .button {
@@ -196,7 +193,7 @@ p {
 .circus-ball-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .circus-ball-page .button {
@@ -218,7 +215,7 @@ p {
 .circus-broke-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .circus-broke-page .button {
@@ -240,7 +237,7 @@ p {
 .circus-save-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 /* Forest */
@@ -259,7 +256,7 @@ p {
 .forest-page p {
   left: 50px;
   top: 50px;
-  width: 325px;
+  width: 400px;
   text-overflow: wrap;
 }
 
@@ -282,7 +279,7 @@ p {
 .forest-trick-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 /* sets background image and moves it to fit */
@@ -298,7 +295,7 @@ p {
 .forest-balance-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .forest-balance-page .button {
@@ -320,7 +317,7 @@ p {
 .forest-hula-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .forest-hula-page .button {
@@ -342,7 +339,7 @@ p {
 .forest-ball-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .forest-ball-page .button {
@@ -364,7 +361,7 @@ p {
 .forest-broke-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .forest-broke-page .button {
@@ -386,7 +383,7 @@ p {
 .forest-save-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 /* Beach */
@@ -405,7 +402,7 @@ p {
 .beach-page p {
   left: 50px;
   top: 50px;
-  width: 325px;
+  width: 400px;
   text-overflow: wrap;
 }
 
@@ -428,7 +425,7 @@ p {
 .beach-trick-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 /* sets background image and moves it to fit */
@@ -444,7 +441,7 @@ p {
 .beach-balance-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .beach-balance-page .button {
@@ -466,7 +463,7 @@ p {
 .beach-hula-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .beach-hula-page .button {
@@ -488,7 +485,7 @@ p {
 .beach-ball-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .beach-ball-page .button {
@@ -510,7 +507,7 @@ p {
 .beach-broke-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 .beach-broke-page .button {
@@ -538,7 +535,7 @@ p {
 .beach-save-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 400px;
 }
 
 /* confetti */
@@ -555,7 +552,7 @@ p {
 .confetti-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 500px;
 }
 
 .confetti-page .button {
@@ -578,7 +575,7 @@ p {
 .tape-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 500px;
 }
 
 .tape-page .button {
@@ -601,11 +598,54 @@ p {
 .pump-page p {
   left: 50px;
   top: 50px;
-  width: 300px;
+  width: 500px;
 }
 
 .pump-page .button {
   position: absolute;
   top: 50px;
   right: 50px;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/view-transition-name */
+
+@view-transition {
+  navigation: auto;
+}
+
+.zoom-transition {
+  view-transition-name: book-zoom;
+} */
+
+
+::view-transition-old(book-zoom) {
+  animation: bookZoomOut 0.9s ease forwards;
+  transform-origin: center;
+}
+
+::view-transition-new(book-zoom) {
+  animation: bookZoomIn 0.9s ease forwards;
+  transform-origin: center;
+}
+
+@keyframes bookZoomOut {
+  from {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: scale(3) rotate(-2deg);
+    opacity: 0;
+  }
+}
+
+@keyframes bookZoomIn {
+  from {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
