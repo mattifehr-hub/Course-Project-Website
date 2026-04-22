@@ -1,3 +1,4 @@
+/* Setting up general styles */
 body {
   height: 100%;
   margin: 0;
@@ -42,7 +43,7 @@ p {
   border: 3px solid #e21d36;
 }
 
-.billy {
+/* .billy {
   width: 250px;
   z-index: 1;
 }
@@ -50,9 +51,10 @@ p {
 .balloon {
   width: 125px;
   z-index: 2;
-}
+} */
 
-/* Choose Pages */
+/* Choice Pages Styles */
+/* sets background image and moves it to fit */
 .location-page {
   background-image: url("../images/neighborhoodDoor.svg");
   background-attachment: fixed;
@@ -94,7 +96,7 @@ p {
   margin-top: 100px;
 }
 
-/* Circus */
+/* Circus page styles */
 /* sets background image and moves it to fit */
 .circus-page {
   background-image: url("../images/circusBilly.svg");
@@ -120,6 +122,7 @@ p {
   right: 50px;
 }
 
+/* circus trick choice page styles */
 /* sets background image and moves it to fit */
 .circus-trick-page {
   background-image: url("../images/circusEmpty.svg");
@@ -135,6 +138,7 @@ p {
   width: 400px;
 }
 
+/* Styles for each trick option within Circus */
 /* sets background image and moves it to fit */
 .circus-balance-page {
   background-image: url("../images/circusBalance.svg");
@@ -202,6 +206,7 @@ p {
   right: 50px;
 }
 
+/* Styles for broken balloon page at circus */
 /* sets background image and moves it to fit */
 .circus-broke-page {
   background-image: url("../images/circusBroke.svg");
@@ -224,6 +229,7 @@ p {
   right: 50px;
 }
 
+/* Styles for save choice at circus */
 /* sets background image and moves it to fit */
 .circus-save-page {
   background-image: url("../images/circusEmpty.svg");
@@ -240,7 +246,7 @@ p {
   width: 400px;
 }
 
-/* Forest */
+/* Forest styles */
 /* sets background image and moves it to fit */
 .forest-page {
   background-image: url("../images/forestBilly.svg");
@@ -266,6 +272,7 @@ p {
   right: 50px;
 }
 
+/* circus trick choice page styles */
 /* sets background image and moves it to fit */
 .forest-trick-page {
   background-image: url("../images/forestEmpty.svg");
@@ -282,6 +289,7 @@ p {
   width: 400px;
 }
 
+/* Styles for each trick in the forest */
 /* sets background image and moves it to fit */
 .forest-balance-page {
   background-image: url("../images/forestBalance.svg");
@@ -348,6 +356,7 @@ p {
   right: 50px;
 }
 
+/* Sttles for broken balloon in forest */
 /* sets background image and moves it to fit */
 .forest-broke-page {
   background-image: url("../images/forestBroke.svg");
@@ -370,6 +379,7 @@ p {
   right: 50px;
 }
 
+/* styles for save choice page in circus */
 /* sets background image and moves it to fit */
 .forest-save-page {
   background-image: url("../images/forestEmpty.svg");
@@ -386,7 +396,7 @@ p {
   width: 400px;
 }
 
-/* Beach */
+/* Beach page styles */
 /* sets background image and moves it to fit */
 .beach-page {
   background-image: url("../images/beachBilly.svg");
@@ -412,6 +422,7 @@ p {
   right: 50px;
 }
 
+/* Styles for trick choice page at beach */
 /* sets background image and moves it to fit */
 .beach-trick-page {
   background-image: url("../images/beachEmpty.svg");
@@ -428,6 +439,7 @@ p {
   width: 400px;
 }
 
+/* Styles for each trick option at beach */
 /* sets background image and moves it to fit */
 .beach-balance-page {
   background-image: url("../images/beachBalance.svg");
@@ -494,6 +506,7 @@ p {
   right: 50px;
 }
 
+/* styles for broken ballon at beach */
 /* sets background image and moves it to fit */
 .beach-broke-page {
   background-image: url("../images/beachBroke.svg");
@@ -522,6 +535,7 @@ p {
   right: 50px;
 }
 
+/* styles for save balloon choice at beach */
 /* sets background image and moves it to fit */
 .beach-save-page {
   background-image: url("../images/beachEmpty.svg");
@@ -538,6 +552,7 @@ p {
   width: 400px;
 }
 
+/* Save page choice outcome page styles */
 /* confetti */
 /* sets background image and moves it to fit */
 .confetti-page {
@@ -607,6 +622,9 @@ p {
   right: 50px;
 }
 
+
+/* Allows for page transition */
+/* Uses built in API */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/view-transition-name */
 
 @view-transition {

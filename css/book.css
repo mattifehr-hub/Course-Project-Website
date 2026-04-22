@@ -1,3 +1,4 @@
+/* Setting up general styles */
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
-  background-color: #64acba;
-
+  /* sets background image and moves it to fit */
   background-image: url("../images/desktop.svg");
   background-attachment: fixed;
   background-repeat: no repeat;
@@ -24,12 +23,12 @@ h1 {
   z-index: 4;
 }
 
+/* Book Styles */
+/* Based on Tutorial: https://www.youtube.com/watch?v=0kD6ff2J3BQ */
 .book {
   position: relative;
   width: 350px;
   height: 500px;
-  /* margin-top: 1100px; */
-
   transform: translateX(0);
 }
 
@@ -83,7 +82,7 @@ h1 {
   transform: rotateY(-180deg);
 }
 
-/* contoller buttons */
+/* page buttons */
 button {
   border: none;
   background-color: transparent;
@@ -132,6 +131,7 @@ button {
   height: 500px;
 }
 
+/* Text on pages default */
 p {
   position: absolute;
   font-family: "Playpen Sans", cursive;
@@ -146,6 +146,8 @@ p {
   text-overflow: wrap;
 }
 
+/* Allows for page transition */
+/* Uses built in API */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/view-transition-name */
 
 @view-transition {
