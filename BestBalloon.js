@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // swoosh audio
     // plays audio for a set amount of time before link takes you to the next page
+    /* Chat GPT for audio on click fix: logged in process log */
     const swooshSound = new Audio('./swoosh.mp3');
 
     document.addEventListener('click', (event) => {

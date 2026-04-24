@@ -12,62 +12,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Barriecito&family=Playpen+Sans:wght@100..800&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <title>Home</title>
   </head>
 
   <body>
     <div class="zoom-transition">
-    <!-- Book -->
-     <!-- Based on Tutorial: https://www.youtube.com/watch?v=0kD6ff2J3BQ -->
-    <div id="book" class="book">
-      <!-- Paper 1 -->
-      <div id="p1" class="paper">
-        <div class="front">
-          <div id="f1" class="front-content">
-            <img src="images/cover.png" draggable="false" alt="" />
+      <!-- Book -->
+      <!-- Based on Tutorial: https://www.youtube.com/watch?v=0kD6ff2J3BQ -->
+      <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+          <div class="front">
+            <div id="f1" class="front-content">
+              <img src="images/cover.png" draggable="false" alt="" />
+            </div>
+          </div>
+          <div class="back">
+            <div id="b1" class="back-content">
+              <p>
+                A bright red balloon suddenly floats into view. It bobs gently
+                in the air, as if it’s waiting… for you.
+                <br />
+                Just as you reach out, a glowing door appears in the air ahead.
+                The balloon drifts toward it like it’s inviting you on an
+                adventure.
+              </p>
+              <img src="images/page1.png" draggable="false" alt="" />
+            </div>
           </div>
         </div>
-        <div class="back">
-          <div id="b1" class="back-content">
-            <p>
-              A bright red balloon suddenly floats into view. It bobs gently in the air, as if it’s waiting… for you.
-              <br> Just as you reach out, a glowing door appears in the air ahead. The balloon drifts toward it like it’s inviting you on an adventure.
-            </p>
-            <img src="images/page1.png" draggable="false" alt="" />
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+          <div class="front">
+            <div id="f2" class="front-content">
+              <img src="images/page2.png" draggable="false" alt="" />
+            </div>
+          </div>
+          <div class="back">
+            <div id="b2" class="back-content">
+              <img src="images/page3.png" draggable="false" alt="" />
+              <p>
+                The balloon pauses in front of the floating door. The door
+                shimmers and splits into three glowing paths. Where will the
+                balloon take you? Choose your adventure…
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+          <div class="front">
+            <div id="f3" class="front-content">
+              <img src="images/page4.png" draggable="false" alt="" />
+            </div>
           </div>
         </div>
       </div>
-      <!-- Paper 2 -->
-      <div id="p2" class="paper">
-        <div class="front">
-          <div id="f2" class="front-content">
-            <img src="images/page2.png" draggable="false" alt="" />
-          </div>
-        </div>
-        <div class="back">
-          <div id="b2" class="back-content">
-            <img src="images/page3.png" draggable="false" alt="" />
-            <p>The balloon pauses in front of the floating door. The door shimmers and splits into three glowing paths. Where will the balloon take you? Choose your adventure…</p>
-          </div>
-        </div>
-      </div>
-      <!-- Paper 3 -->
-      <div id="p3" class="paper">
-        <div class="front">
-          <div id="f3" class="front-content">
-            <img src="images/page4.png" draggable="false" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Next Button -->
-    <button id="next-btn"></button>
-    <!-- Link to next page after last flip of book is made -->
-    <a id="zoom-btn" class="zoom-btn" href="location.html" style="display: none"></a>
-    <!-- Swoosh for when entering the book -->
-    <audio id="swooshAudio" src="./swoosh.mp3"></audio>
+      <!-- Next Button -->
+      <button id="next-btn"></button>
+      <!-- Link to next page after last flip of book is made -->
+      <a
+        id="zoom-btn"
+        class="zoom-btn"
+        href="location.html"
+        style="display: none"
+      ></a>
+      <!-- Swoosh for when entering the book -->
+      <!-- https://www.w3schools.com/html/html5_audio.asp -->
+      <audio id="swooshAudio" src="./swoosh.mp3"></audio>
     </div>
 
     <!-- Linking my JS -->

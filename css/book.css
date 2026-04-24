@@ -149,6 +149,7 @@ p {
 /* Allows for page transition */
 /* Uses built in API */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/view-transition-name */
+/* Chat GPT for zoom effect: logged in process log */
 
 @view-transition {
   navigation: auto;

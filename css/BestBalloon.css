@@ -43,16 +43,6 @@ p {
   border: 3px solid #e21d36;
 }
 
-/* .billy {
-  width: 250px;
-  z-index: 1;
-}
-
-.balloon {
-  width: 125px;
-  z-index: 2;
-} */
-
 /* Choice Pages Styles */
 /* sets background image and moves it to fit */
 .location-page {
@@ -626,6 +616,7 @@ p {
 /* Allows for page transition */
 /* Uses built in API */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/view-transition-name */
+/* Chat GPT for zoom effect: logged in process log */
 
 @view-transition {
   navigation: auto;
